@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elly Okoth | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="nav-item">
+          <h1>Elly Okoth</h1>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Say Hello</a></li>
+          </ul>
+        </div>
+        <div class="profile">
+          <div class="profile-item">
+            <h1>Elly Okoth</h1>
+            <h2>Software Developer</h2>
+            <p class="text">
+              Hi, my name is Elly Okoth and I'm a freelance Software developer
+              based in Nairobi , Kenya. I am just starting my career in the
+              design industry. I'm specialized in Front and backend
+              developement. You can check out my work below
+            </p>
+            <button class="btn"><a href="/EllyOkothcv.pdf">Download CV</a></button>
+            <div class="header-socials socials">
+              <a href="https://www.linkedin.com/in/elly-okoth-otieno">
+                <img src="/logo-linkedin.svg" alt="LinkedIn">
+              </a>
+              <a href="https://github.com/Elly-otieno">
+                <img src="/logo-github.svg" alt="Github">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-details">
+        <img src="/profile.png" alt="" width="300px" />
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about">
+        <h2>About Me</h2>
+        <p class="about-text">
+          I'm a results-driven person with a relentless passion for
+          crafting efficient and innovative solutions. My journey in the world
+          of code has taken a fascination for turning ideas into reality, and
+          since then, I've honed my skills to become a versatile and adept
+          professional.
+        </p>
+        <div class="about-item">
+            <div class="education about--item">
+                <h2>Education</h2>
+                <p>Technical University of Mombasa</p>
+                <p> BTech. Electrical and Electronics Engineering</p>
+              </div>
+              <div class="interest about--item">
+                <h2>Interests</h2>
+                <p><span>Technical:</span> Open source projects, Frameworks</p>
+                <p><span>Non-Technical:</span> Community Involvement</p>
+              </div>
+        </div>
+      </section>
+      <section id="projects" class="project">
+        <h2>Projects</h2>
+        <div class="project-item">
+          <div class="project--item">
+            <img src="/data.png" alt="image" width="300" />
+            <h2>Data Collection</h2>
+            <div class="btn-button">
+              <button><a href="https://github.com/Elly-otieno/data-collection-form">GitHub</a></button>
+              <button><a href="https://soft-jelly-4ba045.netlify.app/">Live Demo</a></button>
+            </div>
+          </div>
+          <div class="project--item item--project">
+            <img src="/portfolio.png" alt="image" width="300" />
+            <h2>Portfolio</h2>
+            <div class="btn-button">
+              <button><a href="https://github.com/Elly-otieno/portfolio-hack">GitHub</a></button>
+              <button><a href="https://soft-jelly-4ba045.netlify.app/">Live Demo</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Say Hello</h2>
+        <form action="/submit" method="post">
+          <label for="name">Name:</label>
+          <input type="name" name="name" id="name" />
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+
+          <label for="text">Message:</label>
+          <textarea name="text" id="text" placeholder="Your Message"></textarea>
+        </form>
+        <button type="submit">Send</button>
+        <div class="footer">
+          <p>Copyright &copy; 2024 Elly Okoth . All Rights Reserved</p>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/elly-okoth-otieno">
+              <img src="/logo-linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Elly-otieno">
+              <img src="/logo-github.svg" alt="Github">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
